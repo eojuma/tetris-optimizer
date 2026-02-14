@@ -14,7 +14,7 @@ func NewBoard(size int) [][]rune {
 	return board
 }
 
-func MiniBoardSize(n int) int {
+func MinBoardSize(n int) int {
 	size := 2
 
 	for size*size < n*4 {
