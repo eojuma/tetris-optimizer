@@ -94,11 +94,10 @@ go run . sample.txt
 4. The output will be the smallest square board with tetrominoes placed. Example output:
 
 ```
-ABB.C
-ABB.C
-AEEEC
-ADDEC
-.DD..
+ABB.
+ABB.
+ACCC
+A..C
 
 ```
 
@@ -177,11 +176,10 @@ The program will output `ERROR` if:
 **Output:**
 
 ```
-ABB.C
-ABB.C
-AEEEC
-ADDEC
-.DD..
+ABB.
+ABB.
+A...
+A...
 ```
 
 ---
