@@ -17,6 +17,7 @@ func Normalize(blocks []Point) []Point {
 			minX = b.X
 		}
 		if b.Y < minY {
+			
 			minY = b.Y
 		}
 
