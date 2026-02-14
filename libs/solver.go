@@ -1,7 +1,7 @@
 package libs
 
 func Solve(tetros []Tetromino) [][]rune {
-	size := MiniBoardSize(len(tetros))
+	size := MinBoardSize(len(tetros))
 
 	for {
 		board := NewBoard(size)
